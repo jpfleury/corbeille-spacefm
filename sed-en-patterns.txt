@@ -1,0 +1,14 @@
+s/^\(.*-label=\)Corbeille$/\1Trash/
+s/^\(.*-label=\)Mettre à la corbeille$/\1Move to Trash/
+s/^\(.*-label=\)Restaurer$/\1Restore/
+s/^\(.*-label=\)Supprimer définitivement$/\1Delete Permanently/
+s/^\(.*-label=\)Aller à la corbeille$/\1Go to Trash/
+s/^\(.*-label=\)Afficher les propriétés/\1Display Properties/
+s/^\(.*-label=\)Vider la corbeille$/\1Empty Trash/
+s/^\(.*-label=\)Limiter la taille de la corbeille$/\1Limit the Size of the Trash/
+s/^\(.*-label=\)Supprimer les fichiers anciens/\1Delete Old Files/
+s/^\(.*-label=\)Supprimer les fichiers volumineux$/\1Delete Big Files/
+s/^\(.*-desc=\)Réduire la taille de la corbeille au nombre de Gio suivant (par exemple 5). Les fichiers seront supprimés en ordre croissant de date de mise à la corbeille.$/\1Reduce the size of the trash to the following number of GiB (for example 5). The files will be deleted in ascending order of date of trashing./
+s/^\(.*-desc=\)Supprimer les fichiers mis à la corbeille depuis au moins le nombre de jours suivant (par exemple 7):$/\1Delete files moved to the trash for at least the following number of days (for example 7):/
+s/^\(.*-desc=\)Supprimer les fichiers mis à la corbeille et dont la taille est supérieure ou égale au nombre de Mio suivant (par exemple 200):$/\1Delete files moved to the trash and whose size is greater than or equal to the following number of MiB (for example 200):/
+
