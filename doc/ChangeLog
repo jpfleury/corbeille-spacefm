@@ -1,3 +1,8 @@
+## Version 1.0.2, 2012-05-07
+
+8be0302 Disabling automatic scrolling for all plugin commands
+a86ebfd Added a note about a SpaceFM bug (not recognizing plugin shortcuts)
+
 ## Version 1.0.1, 2012-05-07
 
 4cfd401 Keyboard shortcut "Shift+Delete"
