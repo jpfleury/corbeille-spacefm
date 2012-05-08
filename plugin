@@ -3,7 +3,7 @@
 # THIS FILE IS NOT DESIGNED TO BE EDITED
 
 [Plugin]
-config_version-s=9
+config_version-s=10
 cstm_73def2cb-x=0
 cstm_73def2cb-icon=user-trash
 cstm_73def2cb-label=Corbeille
@@ -14,6 +14,8 @@ cstm_73def2cb-task_err=1
 cstm_73def2cb-task_out=1
 cstm_73def2cb-keep=1
 cstm_07e29d93-x=1
+cstm_07e29d93-key=65535
+cstm_07e29d93-keymod=1
 cstm_07e29d93-label=Mettre à la corbeille
 cstm_07e29d93-next=cstm_34fb861a
 cstm_07e29d93-cxt=1%%%%%1%%%%%1%%%%%1%%%%%%%%%%2%%%%%7%%%%%/Trash/files%%%%%2%%%%%7%%%%%/Trash/info

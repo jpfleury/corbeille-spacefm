@@ -59,6 +59,7 @@ if [[ $1 == archive ]]; then
 	for script in "${allScripts[@]}"; do
 		cp -rv "$prefix$script" "$tmpDir"
 		cp -v "$prefix$referenceScript/init.inc.sh" "$tmpDir/$prefix$script"
+		cp doc/README.mkd "$tmpDir/$prefix$script"
 	done
 	
 	for dir in "${emptyDir[@]}"; do
