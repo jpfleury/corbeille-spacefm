@@ -48,7 +48,7 @@ Corbeille-SpaceFM consists of 9 commands (available in the SpaceFM menu *Plugins
 
 - *Move to Trash*: you must select at least one file outside the trash directory to have this command enabled. Selected files will be moved to the trash.
 
-	The keyboard shortcut *Shift+Delete* moves to the trash the selected files.
+	The keyboard shortcut *Shift+Delete* moves to the trash the selected files. *Note: it seems that SpaceFM doesn't recognize a shortcut set by a plugin. Until this bug is fixed, the shortcut must be created by hand.*
 
 - *Restore*: you must select at least one file in the trash directory to have this command enabled. Selected files will be moved to their original location. If the original location already exists, the file won't be moved and an error will be displayed.
 
