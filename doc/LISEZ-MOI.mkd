@@ -48,7 +48,7 @@ Corbeille-SpaceFM correspond à un ensemble de 9 commandes (disponibles dans le 
 
 - *Mettre à la corbeille*: au moins un fichier en dehors de la corbeille doit être sélectionné pour que cette commande soit active. Les fichiers sélectionnés seront déplacés vers la corbeille.
 
-	Le raccourci clavier *Maj+Suppr* permet de mettre à la corbeille les fichiers sélectionnés.
+	Le raccourci clavier *Maj+Suppr* permet de mettre à la corbeille les fichiers sélectionnés. *Note: il semble y avoir un bogue avec SpaceFM, qui ne reconnaît pas un raccourci clavier paramétré par une commande d'une extension. Pour l'instant, il faudra le créer manuellement.*
 
 - *Restaurer*: au moins un fichier dans la corbeille doit être sélectionné pour que cette commande soit active. Les fichiers sélectionnés seront déplacés vers leur emplacement original. Si un fichier existe déjà à cet emplacement, aucun déplacement n'aura lieu et un message d'erreur sera affiché.
 
