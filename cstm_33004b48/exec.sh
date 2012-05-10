@@ -20,8 +20,8 @@ getTrashSize
 # Human readable trash size. I could use "du -bhs", but it rounds up, and passed
 # 10, no decimal is used (for example, 14.1 is rounded up 15). Therefore, I do it
 # by hand to have a better result. Note that Bash doesn't handle floating point
-# arithmetic, so I use integer divison and modulo (I could use the command "bc",
-# but it would add another depedency).
+# arithmetic, so I use integer division and modulo (I could use the command "bc",
+# but it would add another dependency).
 
 quotient=$trashSize
 
