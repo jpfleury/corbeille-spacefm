@@ -158,7 +158,7 @@ Toute personne intéressée à effectuer une traduction peut donc traduire les p
 
 ## Développement
 
-Dernière version: 1.0.3 (2012-05-10)
+Dernière version: 1.0.4 (2012-05-22)
 
 Le logiciel Git est utilisé pour la gestion de versions. [Le dépôt peut être consulté en ligne ou récupéré en local.][git]
 
