@@ -158,6 +158,8 @@ Anyone interested can translate all strings and send me the result. For now, Cor
 
 ## Development
 
+Last version: 1.0.3 (2012-05-10)
+
 Git is used for revision control. [Repository can be browsed online or cloned.][git]
 
 Corbeille-SpaceFM has an [issue tracker], on which bug reports and feature requests can be submitted.
