@@ -22,11 +22,9 @@ La marche à suivre pour installer une extension dans SpaceFM est décrite dans 
 
 - [Copier une extension.](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-copy). Une fois copiée, l'extension peut être collée dans n'importe quel menu (aucun mot de passe superutilisateur requis).
 
-Pour chacune des options, il est possible de télécharger soi-même l'extension pour ensuite la sélectionner sur son disque dur, ou bien de fournir une URL et laisser SpaceFM gérer le téléchargement. [Consulter la liste des fichiers offerts en téléchargement.](http://jpfleury.indefero.net/p/corbeille-spacefm/downloads/)
+Une archive de Corbeille-SpaceFM peut être construite à partir du code source:
 
-Alternativement, une archive peut être construite à partir du code source:
-
-- [Télécharger le code source.](http://jpfleury.indefero.net/p/corbeille-spacefm/source/download/master/).
+- [Télécharger le code source.](https://gitorious.org/projets-divers/corbeille-spacefm/archive/master.zip).
 
 - Extraire l'archive.
 
@@ -158,19 +156,14 @@ Toute personne intéressée à effectuer une traduction peut donc traduire les p
 
 ## Développement
 
-Dernière version: 1.0.4 (2012-05-22)
+Dernière version: 1.0.5 (2013-09-07)
 
-Le logiciel Git est utilisé pour la gestion de versions. [Le dépôt peut être consulté en ligne ou récupéré en local.][git]
-
-Corbeille-SpaceFM dispose également d'un [système de suivi], sur lequel les rapports de bogues et les suggestions peuvent être soumis.
-
-[git]: http://jpfleury.indefero.net/p/corbeille-spacefm/source/tree/master/
-[système de suivi]: http://jpfleury.indefero.net/p/corbeille-spacefm/issues/
+Le logiciel Git est utilisé pour la gestion de versions. [Le dépôt peut être consulté en ligne ou récupéré en local.](https://gitorious.org/projets-divers/corbeille-spacefm)
 
 ## Licence
 
-Auteur: Jean-Philippe Fleury <contact@jpfleury.net>  
-Copyright © Jean-Philippe Fleury, 2012.
+Auteur: Jean-Philippe Fleury (<http://www.jpfleury.net/contact.php>)  
+Copyright © Jean-Philippe Fleury, 2012-2013.
 
 Ce programme est un logiciel libre; vous pouvez le redistribuer ou le
 modifier suivant les termes de la GNU General Public License telle que
