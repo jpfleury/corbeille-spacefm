@@ -22,11 +22,9 @@ Instructions to install a plugin in SpaceFM are available in the SpaceFM manual.
 
 - [copy a plugin](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-copy), and paste it elsewhere (no root password needed).
 
-For both options, you can proceed by downloading yourself the plugin, then selecting it on your computer, or by providing an URL, so SpaceFM will handle downloading. [See the list of files available for download.](http://jpfleury.indefero.net/p/corbeille-spacefm/downloads/)
+An archive of Corbeille-SpaceFM can be built from the source code:
 
-Alternately, you can build an archive from the source code:
-
-- [Download the source code.](http://jpfleury.indefero.net/p/corbeille-spacefm/source/download/master/).
+- [Download the source code.](https://gitorious.org/projets-divers/corbeille-spacefm/archive/master.zip).
 
 - Extract the archive.
 
@@ -160,17 +158,12 @@ Anyone interested can translate all strings and send me the result. For now, Cor
 
 Last version: 1.0.4 (2012-05-22)
 
-Git is used for revision control. [Repository can be browsed online or cloned.][git]
-
-Corbeille-SpaceFM has an [issue tracker], on which bug reports and feature requests can be submitted.
-
-[git]: http://jpfleury.indefero.net/p/corbeille-spacefm/source/tree/master/
-[issue tracker]: http://jpfleury.indefero.net/p/corbeille-spacefm/issues/
+Git is used for revision control. [Repository can be browsed online or cloned.](https://gitorious.org/projets-divers/corbeille-spacefm)
 
 ## License
 
-Author: Jean-Philippe Fleury <contact@jpfleury.net>  
-Copyright © 2012 Jean-Philippe Fleury
+Author: Jean-Philippe Fleury (<http://www.jpfleury.net/en/contact.php>)  
+Copyright © 2012-2013 Jean-Philippe Fleury
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
