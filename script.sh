@@ -48,7 +48,7 @@ emptyDir=(73def2cb 34fb861a 59ec5ff8 49454e21)
 # Generate an archive from the source code. This archive can be used in SpaceFM
 # to install the plugin.
 if [[ $1 == archive ]]; then
-	if [[ $2 != @(en|fr) ]]; then
+	if [[ $2 != @(en|fr|sv) ]]; then
 		echo "Please pass a valid language parameter."
 		exit 1
 	fi

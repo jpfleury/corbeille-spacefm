@@ -12,6 +12,11 @@ if [[ ${LANG:0:2} == fr ]]; then
 	msgErrBashVersion="Bash >= 4.0 est requis, mais votre version est %s."
 fi
 
+# Swedish.
+if [[ ${LANG:0:2} == sv ]]; then
+	msgErrBashVersion="Bash >= 4.0 krävs, men versionen är %s."
+fi
+
 ########################################################################
 ##
 ## Requirements, 1 of 2.
@@ -192,6 +197,87 @@ if [[ ${LANG:0:2} == fr ]]; then
 	msg[UNIT_7]="Zio"
 
 	msg[UNIT_8]="Yio"
+fi
+
+####################################
+##
+## Swedish.
+##
+####################################
+if [[ ${LANG:0:2} == sv ]]; then
+	msg[ERR_COREUTILS]="Vänligen installera paketet \"coreutils\" för att använda detta script."
+
+	msg[ERR_CREATE_TMP]="Temporära filer, som behövs för att köra skriptet, kan inte skapas. Ingen åtgärd utfördes."
+
+	msg[ERR_CREATE_TRASHINFO]="Informationsfilen \"%s\" kan inte skapas på grund av otillräcklig behörighet (måste vara skriv och exekverbar) på dess överordnade katalog."
+
+	msg[ERR_CREATE_TRASH]="Papperskorgskatalog \"%s\" eller dess underkataloger \"files\" och \"info\" kan inte skapas."
+
+	msg[ERR_DEVICE]="Filen \"%s\" flyttades inte till hem papperskorgen eftersom det är på en annan enhet. Observera att du kan använda SpaceFM inbyggda kommandot \"Delete\" för att ta bort filen utan att lägga den i papperskorgen."
+
+	msg[ERR_FILE_DOT]="Fel med filen \"%s\": punkt och punkt-punkt kan inte användas som filnamn."
+
+	msg[ERR_FM_VALUE]="Det angivna värdet är inte giltigt. Det måste vara ett heltal större än eller lika med 0."
+
+	msg[ERR_LINK_TRASH]="Den översta katalogen papperskorgen \"%s\" är en symbolisk länk. Du bör undersöka eller anmäla detta till systemadministratören."
+
+	msg[ERR_NO_FILE]="Filen \"%s\" finns inte."
+
+	msg[ERR_NO_SELECTION]="Välj minst en fil."
+
+	msg[ERR_NOT_IN_TRASH]="Filen \"%s\" finns inte i papperskorgen."
+
+	msg[ERR_NO_TRASHINFO]="Det finns ingen informationsfil associerad med filen \"%s\". Ingen åtgärd utfördes."
+
+	msg[ERR_ORIGINAL_EXISTS]="Filen \"%s\" kan inte återställas eftersom dess ursprungliga plats \"%s\" redan finns."
+
+	msg[ERR_PERM_DIR]="Katalogen \"%s\" har inte tillräcklig behörighet för att flyttas till papperskorgen. Behörigheter som krävs är läs och skriv för tomma kataloger, eller läsa, skriv och kör för icke tomma kataloger."
+
+	msg[ERR_PERM_PARENT]="Filen \"%s\" kan inte flyttas till papperskorgen på grund av otillräcklig behörighet på sin överordnade katalog."
+
+	msg[ERR_PERM_TRASH]="Otillräckliga behörigheter (måste vara läs, skriv och körbar) i underkatalogerna \"files\" och \"info\" i papperskorgen \"%s\"."
+
+	msg[ERR_RESTORING]="Ett fel uppstod under återställningen av filen \"%s\" till sin ursprungliga plats \"%s\". Filen återställdes inte."
+
+	msg[ERR_RM_FILE]="Ett fel uppstod vid radering av filen \"%s\". Borttagingen avbröts."
+
+	msg[ERR_RM_TRASHINFO]="Ett fel uppstod vid radering av informationsfilen \"%s\". Du bör försöka att ta bort den för hand."
+
+	msg[ERR_STICKY_BIT_TRASH]="Den översta katalogen papperskorgen \"%s\" har inte den sticky biten satt. Du bör undersöka eller anmäla detta till systemadministratören."
+
+	msg[ERR_TRASHINFO_FORMAT]="Informationsfilen \"%s\", associerad med filen \"%s\", inte välformad. Ingen åtgärd utfördes."
+
+	msg[ERR_TRASHING]="Ett fel inträffade under kassering av filen \"%s\". Den flyttades inte till papperskorgen."
+
+	msg[ERR_TRASHING_TRASH]="Fel med filen \"%s\": du kan inte flytta papperskorgen till papperskorgen själv eller en redan kastad fil."
+
+	msg[ERR_TRASH_PATH]="Papperskorgens sökvägen kan inte fastställas."
+
+	msg[PROP_NUMBER]="Antal filer: %s"
+
+	msg[PROP_SIZE_B]="(%s B)"
+
+	msg[PROP_SIZE]="Total storlek: %s %s"
+
+	msg[PROP_TITLE]="## Egenskaper papperskorgen ##"
+
+	msg[UNIT_0]="B"
+
+	msg[UNIT_1]="KiB"
+
+	msg[UNIT_2]="MiB"
+
+	msg[UNIT_3]="GiB"
+
+	msg[UNIT_4]="TiB"
+
+	msg[UNIT_5]="PiB"
+
+	msg[UNIT_6]="EiB"
+
+	msg[UNIT_7]="ZiB"
+
+	msg[UNIT_8]="YiB"
 fi
 
 ########################################################################

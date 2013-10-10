@@ -34,7 +34,7 @@ An archive of Corbeille-SpaceFM can be built from the source code:
 
 		./script.sh archive $LANG
 
-Possible values for `$LANG` are `en` and `fr`. An archive will be created at the root of the directory. You can use it to install the plugin in SpaceFM.
+Possible values for `$LANG` are `en` (English), `fr` (French) and `sv` (Swedish). An archive will be created at the root of the directory. You can use it to install the plugin in SpaceFM.
 
 ## Uninstallation
 
@@ -152,11 +152,11 @@ Corbeille-SpaceFM is translatable:
 		cstm_00000000-label=String to translate
 		cstm_00000000-desc=String to translate
 
-Anyone interested can translate all strings and send me the result. For now, Corbeille-SpaceFM is available in French and English.
+Anyone interested can translate all strings and send me the result.
 
 ## Development
 
-Last version: 1.0.5 (2013-09-07)
+Last version: 1.0.6 (2013-10-09)
 
 Git is used for revision control. [Repository can be browsed online or cloned.](https://gitorious.org/projets-divers/corbeille-spacefm)
 
