@@ -156,7 +156,7 @@ Toute personne intéressée à effectuer une traduction peut donc traduire les p
 
 ## Développement
 
-Dernière version: 1.0.5 (2013-09-07)
+Dernière version: 1.0.6 (2013-10-09)
 
 Le logiciel Git est utilisé pour la gestion de versions. [Le dépôt peut être consulté en ligne ou récupéré en local.](https://gitorious.org/projets-divers/corbeille-spacefm)
 
