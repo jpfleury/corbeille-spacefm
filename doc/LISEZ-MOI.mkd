@@ -34,7 +34,7 @@ Une archive de Corbeille-SpaceFM peut être construite à partir du code source:
 
 		./script.sh archive $LANGUE
 
-Les valeurs possibles pour `$LANGUE` sont `en` et `fr`. Une archive sera créée à la racine du dossier. Elle peut être directement utilisée par SpaceFM pour procéder à l'installation.
+Les valeurs possibles pour `$LANGUE` sont `en` (anglais), `fr` (français) et `sv` (suédois). Une archive sera créée à la racine du dossier. Elle peut être directement utilisée par SpaceFM pour procéder à l'installation.
 
 ## Désinstallation
 
@@ -152,7 +152,7 @@ Corbeille-SpaceFM peut être traduit:
 		cstm_00000000-label=Phrase à traduire
 		cstm_00000000-desc=Phrase à traduire
 
-Toute personne intéressée à effectuer une traduction peut donc traduire les phrases et m'envoyer le résultat. Pour l'instant, Corbeille-SpaceFM est disponible en français et en anglais.
+Toute personne intéressée à effectuer une traduction peut donc traduire les phrases et m'envoyer le résultat.
 
 ## Développement
 

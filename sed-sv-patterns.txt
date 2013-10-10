@@ -1,0 +1,13 @@
+s/^\(.*-label=\)Corbeille$/\1Papperskorg/
+s/^\(.*-label=\)Mettre à la corbeille$/\1Flytta till papperskorgen/
+s/^\(.*-label=\)Restaurer$/\1Återställ/
+s/^\(.*-label=\)Supprimer définitivement$/\1Ta bort permanent/
+s/^\(.*-label=\)Aller à la corbeille$/\1Gå till papperskorgen/
+s/^\(.*-label=\)Afficher les propriétés/\1Visa egenskaper/
+s/^\(.*-label=\)Vider la corbeille$/\1Töm papperkorgen/
+s/^\(.*-label=\)Limiter la taille de la corbeille$/\1Begränsa storleken på papperskorgen/
+s/^\(.*-label=\)Supprimer les fichiers anciens/\1Radera gamla filer/
+s/^\(.*-label=\)Supprimer les fichiers volumineux$/\1Radera stora filer/
+s/^\(.*-desc=\)Réduire la taille de la corbeille au nombre de Gio suivant (par exemple 5). Les fichiers seront supprimés en ordre croissant de date de mise à la corbeille.$/\1Minska storleken på papperskorgen till följande antal GiB (till exempel 5). Filerna kommer att raderas i stigande ordning efter datum för borttagning./
+s/^\(.*-desc=\)Supprimer les fichiers mis à la corbeille depuis au moins le nombre de jours suivant (par exemple 7):$/\1Radera filer flyttade till papperskorgen under minst följande antal dagar (till exempel 7):/
+s/^\(.*-desc=\)Supprimer les fichiers mis à la corbeille et dont la taille est supérieure ou égale au nombre de Mio suivant (par exemple 200):$/\1Radera filer flyttade till papperskorgen och vars storlek är större än eller lika med följande antal MiB (t.ex. 200):/
