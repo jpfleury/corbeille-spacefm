@@ -24,7 +24,7 @@ Instructions to install a plugin in SpaceFM are available in the SpaceFM manual.
 
 An archive of Corbeille-SpaceFM can be built from the source code:
 
-- [Download the source code.](https://gitorious.org/projets-divers/corbeille-spacefm/archive/master.zip).
+- [Download the source code.](https://gitorious.org/projets-divers/corbeille-spacefm/archive/master.zip)
 
 - Extract the archive.
 

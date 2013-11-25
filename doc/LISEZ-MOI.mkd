@@ -20,11 +20,11 @@ La marche à suivre pour installer une extension dans SpaceFM est décrite dans 
 
 - [Installer une extension.](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-install) Les fichiers de l'extension sont protégés contre une modification inopportune puisqu'ils appartiennent au superutilisateur (le mot de passe du superutilisateur est nécessaire lors de l'installation), et l'extension est disponible pour tous les utilisateurs dans le menu *Plugins* de SpaceFM.
 
-- [Copier une extension.](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-copy). Une fois copiée, l'extension peut être collée dans n'importe quel menu (aucun mot de passe superutilisateur requis).
+- [Copier une extension.](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-copy). Une fois copiée, l'extension peut être collée dans n'importe quel menu (aucun mot de passe superutilisateur requis)
 
 Une archive de Corbeille-SpaceFM peut être construite à partir du code source:
 
-- [Télécharger le code source.](https://gitorious.org/projets-divers/corbeille-spacefm/archive/master.zip).
+- [Télécharger le code source.](https://gitorious.org/projets-divers/corbeille-spacefm/archive/master.zip)
 
 - Extraire l'archive.
 
