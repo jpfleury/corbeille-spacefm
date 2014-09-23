@@ -1,5 +1,3 @@
-<p lang="fr"><strong><a hreflang="fr" href="http://www.jpfleury.net/logiciels/corbeille-spacefm.php">Lire cette page en français.</a></strong></p>
-
 ## Overview
 
 Corbeille-SpaceFM ("Corbeille" is the French for "Trash can") is a plugin adding trash support in the file manager [SpaceFM](http://ignorantguru.github.com/spacefm/).
@@ -16,15 +14,25 @@ Special attention was given to have minimum requirements. It's written in Bash, 
 
 ## Installation
 
-Instructions to install a plugin in SpaceFM are available in the SpaceFM manual. In short, you can:
+The plugin is available in a few languages:
+
+- [English](http://www.jpfleury.net/site/fichiers/corbeille-spacefm/Corbeille-en-source.spacefm-plugin.tar.gz)
+
+- [French](http://www.jpfleury.net/site/fichiers/corbeille-spacefm/Corbeille-fr-source.spacefm-plugin.tar.gz)
+
+- [Swedish](http://www.jpfleury.net/site/fichiers/corbeille-spacefm/Corbeille-sv-source.spacefm-plugin.tar.gz)
+
+You can use the downloaded archive to install the plugin in SpaceFM. Instructions to install a plugin in SpaceFM are available in the SpaceFM manual. In short, you can:
 
 - [install a plugin](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-install), so it will be root protected (root password needed) and available to all users in the SpaceFM menu *Plugins*, or
 
 - [copy a plugin](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-copy), and paste it elsewhere (no root password needed).
 
+### From source code
+
 An archive of Corbeille-SpaceFM can be built from the source code:
 
-- [Download the source code.](https://gitorious.org/projets-divers/corbeille-spacefm/archive/master.zip)
+- [Download the source code.](https://github.com/jpfleury/corbeille-spacefm/archive/master.zip)
 
 - Extract the archive.
 
@@ -156,14 +164,12 @@ Anyone interested can translate all strings and send me the result.
 
 ## Development
 
-Last version: 1.0.7 (2013-11-25)
-
-Git is used for revision control. [Repository can be browsed online or cloned.](https://gitorious.org/projets-divers/corbeille-spacefm)
+Git is used for revision control. [Repository can be browsed online or cloned.](https://github.com/jpfleury/corbeille-spacefm)
 
 ## License
 
 Author: Jean-Philippe Fleury (<http://www.jpfleury.net/en/contact.php>)  
-Copyright © 2012-2013 Jean-Philippe Fleury
+Copyright © 2012 Jean-Philippe Fleury
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -177,4 +183,3 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-

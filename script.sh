@@ -59,20 +59,22 @@ if [[ $1 == archive ]]; then
 	for script in "${allScripts[@]}"; do
 		cp -rv "$prefix$script" "$tmpDir"
 		cp -v "$prefix$referenceScript/init.inc.sh" "$tmpDir/$prefix$script"
-		cp doc/README.mkd "$tmpDir/$prefix$script"
+		cp -v README.md "$tmpDir/$prefix$script"
 	done
 	
 	for dir in "${emptyDir[@]}"; do
 		mkdir -v "$tmpDir/$prefix$dir"
 	done
 	
-	cp plugin "$tmpDir"
+	cp -v plugin "$tmpDir"
 	
 	if [[ -f sed-$2-patterns.txt ]]; then
 		sed -i -f "sed-$2-patterns.txt" "$tmpDir/plugin"
 	fi
 	
-	cp -rv doc/* "$tmpDir"
+	cp -v gpl-3.0.txt "$tmpDir"
+	cp -v LISEZ-MOI.md "$tmpDir"
+	cp -v README.md "$tmpDir"
 	
 	if [[ -n $3 ]]; then
 		version=$3
@@ -116,4 +118,3 @@ elif [[ $1 == init ]]; then
 		cp -v "$path/$prefix$referenceScript/init.inc.sh" "$path/$prefix$script"
 	done
 fi
-

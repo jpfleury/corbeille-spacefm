@@ -1,5 +1,3 @@
-<p lang="en"><strong><a hreflang="en" href="http://www.jpfleury.net/en/software/corbeille-spacefm.php">Read this page in English.</a></strong></p>
-
 ## Aperçu
 
 Corbeille-SpaceFM est une extension ajoutant le support de la corbeille au gestionnaire de fichiers [SpaceFM](http://ignorantguru.github.com/spacefm/).
@@ -16,15 +14,25 @@ Un effort a été déployé pour requérir un minimum de dépendances. Corbeille
 
 ## Installation
 
-La marche à suivre pour installer une extension dans SpaceFM est décrite dans le manuel du logiciel. En gros, il y a deux possibilités:
+L'extension est disponible dans quelques langues:
+
+- [anglais](http://www.jpfleury.net/site/fichiers/corbeille-spacefm/Corbeille-en-source.spacefm-plugin.tar.gz)
+
+- [français](http://www.jpfleury.net/site/fichiers/corbeille-spacefm/Corbeille-fr-source.spacefm-plugin.tar.gz)
+
+- [suédois](http://www.jpfleury.net/site/fichiers/corbeille-spacefm/Corbeille-sv-source.spacefm-plugin.tar.gz)
+
+L'archive téléchargée peut être directement utilisée par SpaceFM pour procéder à l'installation. La marche à suivre pour installer une extension dans SpaceFM est décrite dans le manuel du logiciel. En gros, il y a deux possibilités:
 
 - [Installer une extension.](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-install) Les fichiers de l'extension sont protégés contre une modification inopportune puisqu'ils appartiennent au superutilisateur (le mot de passe du superutilisateur est nécessaire lors de l'installation), et l'extension est disponible pour tous les utilisateurs dans le menu *Plugins* de SpaceFM.
 
 - [Copier une extension.](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-copy). Une fois copiée, l'extension peut être collée dans n'importe quel menu (aucun mot de passe superutilisateur requis)
 
+### À partir du code source
+
 Une archive de Corbeille-SpaceFM peut être construite à partir du code source:
 
-- [Télécharger le code source.](https://gitorious.org/projets-divers/corbeille-spacefm/archive/master.zip)
+- [Télécharger le code source.](https://github.com/jpfleury/corbeille-spacefm/archive/master.zip)
 
 - Extraire l'archive.
 
@@ -156,14 +164,12 @@ Toute personne intéressée à effectuer une traduction peut donc traduire les p
 
 ## Développement
 
-Dernière version: 1.0.7 (2013-11-25)
-
-Le logiciel Git est utilisé pour la gestion de versions. [Le dépôt peut être consulté en ligne ou récupéré en local.](https://gitorious.org/projets-divers/corbeille-spacefm)
+Le logiciel Git est utilisé pour la gestion de versions. [Le dépôt peut être consulté en ligne ou récupéré en local.](https://github.com/jpfleury/corbeille-spacefm)
 
 ## Licence
 
 Auteur: Jean-Philippe Fleury (<http://www.jpfleury.net/contact.php>)  
-Copyright © Jean-Philippe Fleury, 2012-2013.
+Copyright © Jean-Philippe Fleury, 2012.
 
 Ce programme est un logiciel libre; vous pouvez le redistribuer ou le
 modifier suivant les termes de la GNU General Public License telle que
@@ -178,4 +184,3 @@ générale GNU pour plus de détails.
 Vous devriez avoir reçu une copie de la Licence publique générale GNU avec
 ce programme; si ce n'est pas le cas, consultez
 <http://www.gnu.org/licenses/>.
-
