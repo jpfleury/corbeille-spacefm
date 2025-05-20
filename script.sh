@@ -72,7 +72,7 @@ if [[ $1 == archive ]]; then
 		sed -i -f "sed-$2-patterns.txt" "$tmpDir/plugin"
 	fi
 	
-	cp -v gpl-3.0.txt "$tmpDir"
+	cp -v COPYING "$tmpDir"
 	cp -v LISEZ-MOI.md "$tmpDir"
 	cp -v README.md "$tmpDir"
 	
