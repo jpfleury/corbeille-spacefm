@@ -1,12 +1,14 @@
 ## Overview
 
-Corbeille-SpaceFM ("Corbeille" is the French word for "Trash can") is a plugin that adds trash support to the file manager [SpaceFM](http://ignorantguru.github.com/spacefm/).
+Corbeille-SpaceFM ("Corbeille" is the French word for "Trash can") is a plugin that adds trash support to the file manager [SpaceFM](https://ignorantguru.github.io/spacefm/) **(\*)**.
 
-Corbeille-SpaceFM is compliant with the [FreeDesktop.org Trash specification](http://standards.freedesktop.org/trash-spec/trashspec-latest.html), so it's interoperable with other compliant implementations, which will be able to manage files moved to the trash by Corbeille-SpaceFM, and vice versa. Tests were conducted with Thunar, Nautilus, and Dolphin.
+Corbeille-SpaceFM is compliant with the [FreeDesktop.org Trash specification](https://specifications.freedesktop.org/trash-spec/latest/), so it's interoperable with other compliant implementations, which will be able to manage files moved to the trash by Corbeille-SpaceFM, and vice versa. Tests were conducted with Thunar, Nautilus, and Dolphin.
 
 Corbeille-SpaceFM supports filenames containing any characters, including newlines.
 
 It was also coded with speed in mind. It supports multi-core processing and can manage hundreds or thousands of files without significant delays. See the *Details* section below for benchmarks.
+
+**(\*)** *For those interested, see this [discussion about the future of SpaceFM](https://github.com/IgnorantGuru/spacefm/issues/800).*
 
 ## Requirements
 
@@ -16,17 +18,17 @@ Special attention was given to keeping the requirements minimal. It's written in
 
 The plugin is available in a few languages:
 
-- [English](http://www.jpfleury.net/site/fichiers/corbeille-spacefm/Corbeille-en-source.spacefm-plugin.tar.gz)
+- [English](https://raw.githubusercontent.com/jpfleury/corbeille-spacefm/master/assets/Corbeille-en-source.spacefm-plugin.tar.gz)
 
-- [French](http://www.jpfleury.net/site/fichiers/corbeille-spacefm/Corbeille-fr-source.spacefm-plugin.tar.gz)
+- [French](https://raw.githubusercontent.com/jpfleury/corbeille-spacefm/master/assets/Corbeille-fr-source.spacefm-plugin.tar.gz)
 
-- [Swedish](http://www.jpfleury.net/site/fichiers/corbeille-spacefm/Corbeille-sv-source.spacefm-plugin.tar.gz)
+- [Swedish](https://raw.githubusercontent.com/jpfleury/corbeille-spacefm/master/assets/Corbeille-sv-source.spacefm-plugin.tar.gz)
 
 You can use the downloaded archive to install the plugin in SpaceFM. Instructions to install a plugin in SpaceFM are available in the SpaceFM manual. In short, you can:
 
-- [install a plugin](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-install), so it will be root protected (root password needed) and available to all users in the SpaceFM menu *Plugins*, or
+- [install a plugin](https://ignorantguru.github.io/spacefm/spacefm-manual-en.html#plugins-install), so it will be root protected (root password needed) and available to all users in the SpaceFM menu *Plugins*, or
 
-- [copy a plugin](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-copy), and paste it elsewhere (no root password needed).
+- [copy a plugin](https://ignorantguru.github.io/spacefm/spacefm-manual-en.html#plugins-copy), and paste it elsewhere (no root password needed).
 
 ### From source code
 
@@ -46,7 +48,7 @@ Possible values for `$LANG` are `en` (English), `fr` (French) and `sv` (Swedish)
 
 ## Uninstallation
 
-See the instructions for [uninstalling a plugin](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-uninstall) in the SpaceFM manual.
+See the instructions for [uninstalling a plugin](https://ignorantguru.github.io/spacefm/spacefm-manual-en.html#plugins-uninstall) in the SpaceFM manual.
 
 ## Usage
 
@@ -98,7 +100,7 @@ The second benchmark was on a netbook with an Intel Atom N450 and 2 GiB of RAM. 
 
 ### Symbols used for file size
 
-Corbeille-SpaceFM uses the conventional [binary prefix](http://en.wikipedia.org/wiki/Binary_prefix) system when displaying file sizes, i.e. powers of 2, along with the newer prefixes proposed to clearly distinguish binary prefixes from SI prefixes (based on powers of 10). For example, MiB is used for 1024 KiB, and 1 KiB refers to 1024 bytes.
+Corbeille-SpaceFM uses the conventional [binary prefix](https://en.wikipedia.org/wiki/Binary_prefix) system when displaying file sizes, i.e. powers of 2, along with the newer prefixes proposed to clearly distinguish binary prefixes from SI prefixes (based on powers of 10). For example, MiB is used for 1024 KiB, and 1 KiB refers to 1024 bytes.
 
 ### Trashable files
 
@@ -166,7 +168,7 @@ Git is used for revision control. [The repository can be browsed online or clone
 
 ## License
 
-Author: Jean-Philippe Fleury (<http://www.jpfleury.net/en/contact.php>)  
+Author: Jean-Philippe Fleury (<https://github.com/jpfleury>)  
 Copyright © 2012 Jean-Philippe Fleury
 
 This program is free software: you can redistribute it and/or modify

@@ -1,8 +1,8 @@
 ## Aperçu
 
-Corbeille-SpaceFM est une extension ajoutant le support de la corbeille au gestionnaire de fichiers [SpaceFM](http://ignorantguru.github.com/spacefm/).
+Corbeille-SpaceFM est une extension ajoutant le support de la corbeille au gestionnaire de fichiers [SpaceFM](https://ignorantguru.github.io/spacefm/).
 
-Corbeille-SpaceFM est conforme à la [spécification de freedesktop.org relative à la corbeille](http://standards.freedesktop.org/trash-spec/trashspec-latest.html), et est donc interopérable avec d'autres implémentations conformes, qui pourront gérer les fichiers mis à la corbeille par Corbeille-SpaceFM, et vice versa. Des essais ont été effectués avec Thunar, Nautilus et Dolphin.
+Corbeille-SpaceFM est conforme à la [spécification de freedesktop.org relative à la corbeille](https://specifications.freedesktop.org/trash-spec/latest/), et est donc interopérable avec d'autres implémentations conformes, qui pourront gérer les fichiers mis à la corbeille par Corbeille-SpaceFM, et vice versa. Des essais ont été effectués avec Thunar, Nautilus et Dolphin.
 
 Corbeille-SpaceFM gère sans problème les noms de fichiers formés de n'importe quel caractère valide, par exemple des retours à la ligne.
 
@@ -16,17 +16,17 @@ Un effort a été déployé pour requérir un minimum de dépendances. Corbeille
 
 L'extension est disponible dans quelques langues:
 
-- [anglais](http://www.jpfleury.net/site/fichiers/corbeille-spacefm/Corbeille-en-source.spacefm-plugin.tar.gz)
+- [anglais](https://raw.githubusercontent.com/jpfleury/corbeille-spacefm/master/assets/Corbeille-en-source.spacefm-plugin.tar.gz)
 
-- [français](http://www.jpfleury.net/site/fichiers/corbeille-spacefm/Corbeille-fr-source.spacefm-plugin.tar.gz)
+- [français](https://raw.githubusercontent.com/jpfleury/corbeille-spacefm/master/assets/Corbeille-fr-source.spacefm-plugin.tar.gz)
 
-- [suédois](http://www.jpfleury.net/site/fichiers/corbeille-spacefm/Corbeille-sv-source.spacefm-plugin.tar.gz)
+- [suédois](https://raw.githubusercontent.com/jpfleury/corbeille-spacefm/master/assets/Corbeille-sv-source.spacefm-plugin.tar.gz)
 
 L'archive téléchargée peut être directement utilisée par SpaceFM pour procéder à l'installation. La marche à suivre pour installer une extension dans SpaceFM est décrite dans le manuel du logiciel. En gros, il y a deux possibilités:
 
-- [Installer une extension.](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-install) Les fichiers de l'extension sont protégés contre une modification inopportune puisqu'ils appartiennent au superutilisateur (le mot de passe du superutilisateur est nécessaire lors de l'installation), et l'extension est disponible pour tous les utilisateurs dans le menu *Plugins* de SpaceFM.
+- [Installer une extension.](https://ignorantguru.github.io/spacefm/spacefm-manual-en.html#plugins-install) Les fichiers de l'extension sont protégés contre une modification inopportune puisqu'ils appartiennent au superutilisateur (le mot de passe du superutilisateur est nécessaire lors de l'installation), et l'extension est disponible pour tous les utilisateurs dans le menu *Plugins* de SpaceFM.
 
-- [Copier une extension.](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-copy). Une fois copiée, l'extension peut être collée dans n'importe quel menu (aucun mot de passe superutilisateur requis)
+- [Copier une extension.](https://ignorantguru.github.io/spacefm/spacefm-manual-en.html#plugins-copy). Une fois copiée, l'extension peut être collée dans n'importe quel menu (aucun mot de passe superutilisateur requis)
 
 ### À partir du code source
 
@@ -46,7 +46,7 @@ Les valeurs possibles pour `$LANGUE` sont `en` (anglais), `fr` (français) et `s
 
 ## Désinstallation
 
-Voir les instructions pour [désinstaller une extension](http://ignorantguru.github.com/spacefm/spacefm-manual-en.html#plugins-uninstall) dans le manuel de SpaceFM.
+Voir les instructions pour [désinstaller une extension](https://ignorantguru.github.io/spacefm/spacefm-manual-en.html#plugins-uninstall) dans le manuel de SpaceFM.
 
 ## Utilisation
 
@@ -100,7 +100,7 @@ Le deuxième test a été effectué sur un miniportable ayant un processeur Inte
 
 ### Symboles utilisés pour la taille des fichiers
 
-Pour la taille des fichiers, Corbeille-SpaceFM utilise la signification habituelle du [préfixe binaire](http://fr.wikipedia.org/wiki/Pr%C3%A9fixe_binaire), c'est-à-dire la puissance de 2, mais avec les nouveaux termes proposés pour différentier sans équivoque les préfixes binaires des préfixes du système international (en puissance de 10). Par exemple, Mio est utilisé pour 1024 Kio, et 1 Kio équivaut à 1024 octets.
+Pour la taille des fichiers, Corbeille-SpaceFM utilise la signification habituelle du [préfixe binaire](https://fr.wikipedia.org/wiki/Pr%C3%A9fixe_binaire), c'est-à-dire la puissance de 2, mais avec les nouveaux termes proposés pour différentier sans équivoque les préfixes binaires des préfixes du système international (en puissance de 10). Par exemple, Mio est utilisé pour 1024 Kio, et 1 Kio équivaut à 1024 octets.
 
 ### Fichiers pouvant être mis à la corbeille
 
@@ -168,7 +168,7 @@ Le logiciel Git est utilisé pour la gestion de versions. [Le dépôt peut être
 
 ## Licence
 
-Auteur: Jean-Philippe Fleury (<http://www.jpfleury.net/contact.php>)  
+Auteur: Jean-Philippe Fleury (<https://github.com/jpfleury>)  
 Copyright © Jean-Philippe Fleury, 2012.
 
 Ce programme est un logiciel libre; vous pouvez le redistribuer ou le
